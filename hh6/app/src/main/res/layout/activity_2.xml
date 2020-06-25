@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/planet"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="390dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/reset_game"
+        android:textColor="#58FAF4"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="313dp">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/orange"
+            android:textSize="50sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:textSize="50sp"
+            android:background="@drawable/orange"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:textSize="50sp"
+            android:background="@drawable/orange"
+            tools:ignore="ButtonStyle" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:textSize="50sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mix"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:textSize="50sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mix"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:textSize="50sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mix"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:textSize="50sp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/yellow"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:textSize="50sp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/yellow"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="200dp"
+            android:textSize="50sp"
+            android:layout_height="180dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/yellow"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="674dp"
+        android:layout_height="458dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20sp"
+            android:textSize="40sp"
+            android:textColor="#58FAF4"
+            android:background="@drawable/custom_button"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

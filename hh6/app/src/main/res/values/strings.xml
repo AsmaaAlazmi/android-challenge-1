@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Space XandO</string>
+    <string name="start_game">Start Game</string>
+    <string name="reset_game">RESET GAME</string>
+</resources>
